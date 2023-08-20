@@ -1,0 +1,8 @@
+Global state:
+- Context: thuần của ReactJS
+- Redux (Redux Core --> Redux Toolkit): third-party (bên thứ 3, thư viện ngoài), nhưng có cấu trúc rõ ràng hơn Context, sử dụng 1 Design Pattern là Reducer Pattern (Angular - NgRx, VueJS - Vuex/Pinia)
+
+- Đều giải quyết 1 vấn đề chung là cung cấp cho React App 1 kho dữ liệu toàn cục (gọi là Global state) để cho mọi component trong phạm vi đều có thể lắng nghe sự thay đổi và cập nhật được
+
+Redux toolkit:
+- Slice chứa reducer function
