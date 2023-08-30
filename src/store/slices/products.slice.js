@@ -20,7 +20,7 @@ const productsSlice = createSlice({
 
 // Object Destructuring (ES6) - export actions để cho component sử dụng.
 // Redux-toolkit slice sẽ tự động tạo ra các action trùng với tên của reducer của slice
-export const { setProducts } = productsSlice.actions;
+export const { addProduct } = productsSlice.actions;
 
 // Export reducer để "đăng ký" vào store
 export default productsSlice.reducer;
