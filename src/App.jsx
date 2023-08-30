@@ -4,6 +4,7 @@ import Title from './compontents/Title'
 import Paragraph from './compontents/Paragraph'
 import { useDispatch } from 'react-redux'
 import { updateContent } from './store/slices/content.slice'
+import PostList from './compontents/PostList'
 
 function App() {
   const dispatch = useDispatch();
@@ -44,6 +45,8 @@ function App() {
       </form>
       <Title />
       <Paragraph />
+      <hr />
+      <PostList />
     </>
   )
 }

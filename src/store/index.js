@@ -1,11 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
 import contentReducer from './slices/content.slice';
-
-// SQL -- 1 table ~ 1 module ~ reducer
+import postReducer from './slices/post.slice';
 
 const store = configureStore({
   reducer: {
-    content: contentReducer
+    content: contentReducer,
+    posts: postReducer
   },
 })
 
